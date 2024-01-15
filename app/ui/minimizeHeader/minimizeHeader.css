@@ -1,0 +1,20 @@
+.miniHeaderContainer {
+    /* writing-mode: vertical-rl;
+
+   -webkit-transform: rotate(-180deg); 
+   -moz-transform: rotate(-180deg); */
+   transform: rotate(-90deg);
+   height: 24px;
+   /* display: flex; */
+   /* justify-content: end; */
+   position: fixed;;
+   top: 50px;
+   right: -30px;
+   /* margin: 1em; */
+   margin-top: 1em;
+
+}
+
+.miniHeaderContainer:hover {
+    cursor: pointer;
+}

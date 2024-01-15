@@ -1,0 +1,10 @@
+
+.miniNavbar {
+    color: white;
+    height: 97%;
+    width: 8%;
+    background-color: white;
+    border-radius: 25px;
+    margin: 1em;
+    display: flex;
+}

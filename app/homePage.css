@@ -1,0 +1,21 @@
+.navbar {
+    height: 95vh;
+    width: 25vw;
+    margin: 15px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.navbar.clicked{
+    animation: homepage-clicked-navbar 2s
+}
+ 
+
+@keyframes homepage-clicked-navbar {
+    /* from {
+        width: 25%; 
+      } */
+      to {
+        width: 100%; 
+      }
+}

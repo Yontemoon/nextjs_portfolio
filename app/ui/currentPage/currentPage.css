@@ -1,0 +1,17 @@
+.currentPage {
+    width: 75%;
+    height: 97vh;
+    margin:1em;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    animation: homepage-clicked-navbar 500ms;
+    /* animation-timing-function: cubic-bezier(1,0,0,1);  */
+  }
+
+  @keyframes homepage-clicked-navbar {
+
+    to {
+        width: 75%; 
+    }
+} 
